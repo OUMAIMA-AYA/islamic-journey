@@ -32,6 +32,13 @@ Route::get('/produit', function() use($donnees) {
     return view('produit', ['data' => $donnees]);
 })->name('produit'); 
 
+Route::get('/our_courses ', function() {
+    return view('our_courses');
+});
+
+Route::get('/rules ', function() {
+    return view('rules');
+});
 
 Route::get('/produit/{id}', function($id) use ($donnees) {
     return view('product-details', ['produit' => $donnees[$id]]);

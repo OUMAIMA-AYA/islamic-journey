@@ -128,6 +128,7 @@ footer {
         <ul>
             <li><a href="/about">About Us</a></li>
             <li><a href="/produit">Our Products</a></li>
+            <li><a href="/our_courses">Our courses</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
     </nav>
