@@ -84,16 +84,18 @@ form {
     margin: 0 auto;
     background-color: #f5f5dc;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 form label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
     margin-bottom: 5px;
 }
 form input[type="text"],
 form input[type="tel"],
 form input[type="email"],
+select,
 form input[type="date"]  {
     width: 100%;
     padding: 8px;
@@ -106,9 +108,11 @@ form input[type="submit"],
  input[type="button"] {
     background-color: #8b4513; /* Brown */
     color: white;
-    padding: 10px 15px;
+    width:60%;
+    padding: 14px 15px;
+    margin-left: 85px;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
