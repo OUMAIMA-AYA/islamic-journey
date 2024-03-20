@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-    <h1 style="text-align: center;color: #8b4513;margin: 15px;">Our Products</h1>
+    <h1 style="text-align: center;color: #8b4513;  font-family: Georgia, 'Times New Roman', Times, serif;;margin: 15px;">Our Products</h1>
     <br>
     <div class="products" style="text-align: center;">
         @foreach ($data as $p)

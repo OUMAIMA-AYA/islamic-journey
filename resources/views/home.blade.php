@@ -5,7 +5,7 @@
 
     <div style="display: flex; align-items: center;">
         <div style="flex: 1;">
-         <h1 style="margin-bottom: 20px; color: #8b4513; text-align: center;"> OUR WORLD ! </h1>
+         <h1 style="margin-bottom: 20px; color: #8b4513; text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;;"> OUR WORLD ! </h1>
             <p style="margin-bottom: 15px; font-size: 18px; font-weight: bold; color: #8b4513;">Welcome to <em>QuranVerse</em>, your one-stop destination for acquiring the sacred text of the Holy Quran. Dive into the profound teachings of Islam's holiest scripture and experience the transformative power of divine wisdom.</p>
 
             <p style="margin-bottom: 15px; color: #2c3e50;">At <em>QuranVerse</em>, we are committed to providing you with the highest quality editions of the Holy Quran, meticulously crafted to preserve the integrity and beauty of its message. Each Quran in our collection is a testament to the timeless significance and reverence of Islam's most revered scripture.</p>

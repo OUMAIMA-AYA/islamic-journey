@@ -3,7 +3,7 @@
 <div style="padding: 20px; max-width: 800px; margin: 0 auto; background-color: #f5f5dc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; line-height: 1.5; text-align: center;margin-top: 30px;">
 
     <div style="float: left; text-align: left; width: 65%; padding-right: 20px;">
-        <h1 style="font-size: 24px; font-weight: bold; color: #8B4513; margin-bottom: 20px; text-align:center;">About QuranVerse</h1>
+        <h1 style="font-size: 24px; font-weight: bold; color: #8B4513; margin-bottom: 20px;font-family: Georgia, 'Times New Roman', Times, serif; text-align:center;">About QuranVerse</h1>
 
         <p style="margin-bottom: 15px; font-style: italic;">Welcome to <strong style="color: #8B4513;">QuranVerse</strong>, your ultimate destination for discovering the divine wisdom and guidance of the Holy Quran. Whether you're embarking on a spiritual journey to deepen your understanding of Islam or seeking solace and enlightenment in the sacred teachings of the Quran, we're here to accompany you every step of the way.</p>
 
