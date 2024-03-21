@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class Uppercase
 {
-  public function handle($request, Closure $next)
+  public function handle($request, Closure $next )
   {
     //  $request->merge(array_map('strtoupper', $request->all()));
 

@@ -1,7 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
-use Illuminate\Http\Request;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
  
 $names = [
@@ -151,7 +150,7 @@ Route::get('/produit/{id}', function($id) use ($donnees) {
 })->name('product-details');  
 
 
-Route::post('/saveContact', [ContactController::class, 'saveContact'])->middleware(['Uppercase','InjectParametre','add_new_word']);
+Route::post('/saveContact', [ContactController::class, 'saveContact'])->middleware(['Uppercase','InjectParametre','add_new_word'])->name('contacts.saveContact');
 
 
 

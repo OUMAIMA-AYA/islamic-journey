@@ -1,9 +1,9 @@
 @extends('layout')
-
 @section('content')
 </br>
     <h1 style="text-align: center;color: #8b4513;font-family: Georgia, 'Times New Roman', Times, serif;;">Inscription</h1></br>
-    <form method="POST" action="/saveContact">
+    <form method="POST" action="{{ route('contacts.saveContact') }}">
+
     @csrf
         
         <label for="nom">Nom:</label>
