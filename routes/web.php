@@ -127,7 +127,7 @@ Route::get('/about', function(){
 Route::get('/contact', function(){
     return view('contact');
 });
-
+Route::post('/saveContact', [ContactController::class, 'saveContact'])->Middleware('Uppercase')->name('contacts.saveContact');
 
 Route::get('/produit', function() use($donnees) {
     return view('produit', ['data' => $donnees]);
@@ -150,7 +150,7 @@ Route::get('/produit/{id}', function($id) use ($donnees) {
 })->name('product-details');  
 
 
-Route::post('/saveContact', [ContactController::class, 'saveContact'])->middleware(['Uppercase','InjectParametre','add_new_word'])->name('contacts.saveContact');
+
 
 
 

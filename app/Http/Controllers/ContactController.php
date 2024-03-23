@@ -9,28 +9,23 @@ class ContactController extends Controller
 {
     public function saveContact(Request $request)
     {
-        // Validation des données du formulaire
-        $request->validate([
+        // Validate the form data
+        $validatedData = $request->validate([
             'nom' => 'required|string',
             'prenom' => 'required|string',
-            'tel' => 'nullable|string',
-            'email' => 'nullable|email',
+            'tel' => 'required|string',
+            'email' => 'required|email',
             'date_naiss' => 'nullable|date',
-            'genre' => 'nullable|in:female,male',
+           
         ]);
 
-        // Création d'un nouveau contact
-        $contact = new Contact();
-        $contact->nom = $request->input('nom');
-        $contact->prenom = $request->input('prenom');
-        $contact->tel = $request->input('tel');
-        $contact->email = $request->input('email');
-        $contact->date_naiss = $request->input('date_naiss');
-        $contact->genre = $request->input('genre');
-        $contact->save();
+        // Create a new Contact instance with the validated data
+        $contact = new contact($validatedData);
 
-        // Redirection avec un message de succès
-        return redirect()->back()->with('success', 'Contact ajouté avec succès !');
+        // Save the contact to the database
+        $contact->save();
+        return redirect('/contact')->with('success', 'Contact ajouté avec succès !');
+
     }
 }
 

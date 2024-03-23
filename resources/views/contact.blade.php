@@ -20,14 +20,6 @@
         
         <label for="date_naiss">Date de naissance:</label>
         <input type="date" id="date_naiss" name="date_naiss"><br><br>
-        
-        <label>Genre:</label>
-        <select name="genre">
-            <option value=""> Sélectionner </option>
-            <option value="female">Femme</option>
-            <option value="male">Homme</option>
-        </select><br><br>
-        
         <input type="submit" value="Envoyer">
     </form>
 @endsection

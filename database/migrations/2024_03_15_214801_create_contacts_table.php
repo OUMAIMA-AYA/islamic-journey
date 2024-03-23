@@ -15,10 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('nom');
             $table->string('prenom');
-            $table->string('tel')->nullable();
-            $table->string('email')->nullable();
+            $table->string('tel')->require();
+            $table->string('email')->require();
             $table->date('date_naiss')->nullable();
-            $table->enum('genre', ['male', 'female'])->nullable();
             $table->timestamps();
         });
     }
