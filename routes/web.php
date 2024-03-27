@@ -115,7 +115,6 @@ $donnees = [
     6=> ['id'=>6, 'name'=> 'Abayah', 'image'=>'https://i.pinimg.com/474x/af/b2/53/afb253beec447de2f5a126b8234c56c7.jpg', 'details'=>'Description of Product 6 goes here', 'price'=>'25$'],
     7=> ['id'=>7, 'name'=> 'Abayah', 'image'=>'https://i.pinimg.com/236x/94/14/64/9414643cf2ce7829146fe79be77c788d.jpg', 'details'=>'Description of Product 7 goes here', 'price'=>'25$'],
  ];
-
 Route::get('/', function(){
     return view('home');
 });
@@ -150,9 +149,12 @@ Route::get('/produit/{id}', function($id) use ($donnees) {
 })->name('product-details');  
 
 
+use App\Http\Controllers\ZakatController;
 
-
-
+Route::get('/zakat',function(){
+    return view('zakat');
+});
+Route::post('/zakat', [ZakatController::class, 'calculate']);
 
 
 

@@ -1,11 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Names of Allah</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+@extends('layout')
+@section( 'content' )
 <style>
 body {
     font-family: Arial, sans-serif;
@@ -102,16 +97,6 @@ nav ul li a:hover {
 }
 </style>
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/produit">Our Products</a></li>
-            <li><a href="/our_courses">Our courses</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
     <div class="container">
     <h1 style="color: #8b4513; text-align: center; font-size: 36px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">99 Names of Allah</h1>
 </br>
@@ -128,3 +113,4 @@ nav ul li a:hover {
     </div>
 </body>
 </html>
+@endsection

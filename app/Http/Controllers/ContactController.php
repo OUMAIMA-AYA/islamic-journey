@@ -24,7 +24,7 @@ class ContactController extends Controller
 
         // Save the contact to the database
         $contact->save();
-        return redirect('/contact')->with('success', 'Contact ajouté avec succès !');
+        return view('/contact')->with('success', 'Contact ajouté avec succès !');
 
     }
 }
