@@ -9,6 +9,7 @@
     margin-top: 10px;
     box-shadow: 2px #555 ;
     border-radius: 40px;
+    position: relative; /* Make the container position relative */
 }
 
 .title {
@@ -37,6 +38,9 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: absolute; /* Position the button absolutely */
+    top: 10px; /* Adjust top distance */
+    right: 10px; /* Adjust right distance */
 }
 
 .section {
@@ -60,13 +64,27 @@
 .section li {
     margin-bottom: 10px;
 }
+ button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #8b4513; /* Couleur brune pour les boutons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ button:hover {
+    background-color: #6e2d08; /* Darker brown on hover */
+}
 
 
 </style>
 <div class="container"></br>
     <h1 class="title" style=" color: #8b4513;font-family: Georgia, 'Times New Roman', Times, serif;;">Informations before starting our journey!</h1></br>
+    <a href="/rules"><button>Tajweed rules</button></a>
+    <a href="/namesOfAllah"><button>the 99 names of Allah</button></a>
     <div class="section">
-    <p><strong>The first thing to remember when talking about Tajweed Rules is that these rules govern the recitation of the Quran. Thus, it can be a bit confusing at first. However, to clear up any confusion you may have about what Tajweed Rules are and how they can help you in your recitations. Here are some important points to keep in mind about using them in your recitations of Quran, as well as the benefits you will experience from using them consistently. Let’s get started!</strong></p>
+    <p><strong>The first thing to remember when talking about Tajweed Rules is that these rules govern the recitation of the Quran. This, it can be a bit confusing at first. However, to clear up any confusion you may have about what Tajweed Rules are and how they can help you in your recitations. Here are some important points to keep in mind about using them in your recitations of Quran, as well as the benefits you will experience from using them consistently. Let’s get started!</strong></p>
     <br>
     <h3>What is Tajweed?</h3>
     <p>The word tajweed means to make something better, improve. Tajweed of the Quran means the knowledge and rules of recitation. Thus, the recitation of the Quran should be like how the Prophet Mohammad (PBUH) recited it.</p>
@@ -92,7 +110,7 @@
     <h3>Fundamental Factors</h3>
     <p>Both Arabic and non-Arabic Muslims are meant to benefit from the Tajweed Rules of the Quran. It directs us toward perfect recitation of the Holy Quran. We may quickly pick up these rules and use them to improve our reading.</p>
 
-    <p>However, they are not particularly challenging; all they require is some practice under the guidance of a skilled instructor. The Holy Quran was revealed to Mohammed (PBUH), Allah’s messenger, by the angel Gabriel, as is totally obvious. Most of the time, those rules were set by our beloved prophet Mohammed (PBUH) to help in Quran reciting.</p>
+    <p>However, they are not particularly challenging; all they require is some practice under the guidance of a skilled instructor. The Holy Quran was revealed to Mohammed (PBUH), Allah’s messenger, by the angel Gabriel, as is totally obvious. Most of the time, those rules were set by our beloved prophet Mohammed(PBUH) to help in Quran reciting.</p>
 
     <p>While reading, it protects the tongue against mispronunciations of the Holy Quran. Muslims should get familiar with the Tajweed Rules of the Quran. They should understand them well and repeatedly apply these rules while reciting. There are four fundamental factors that are as follows:</p>
     <br>

@@ -160,8 +160,6 @@ form input[type="submit"],
     <i class="fas fa-bars"></i>
     <div class="additional-links" id="additionalLinks">
         <ul class="additional-nav">
-            <li><a href="/rules">Rules of Tajweed</a></li>
-            <li><a href="/namesOfAllah">Names of Allah</a></li>
             <li><a href="/zakat">Calculating your zakat</a></li>
         </ul>
     </div>
