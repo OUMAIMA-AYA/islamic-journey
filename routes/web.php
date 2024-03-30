@@ -115,7 +115,7 @@ $donnees = [
     6=> ['id'=>6, 'name'=> 'Abayah', 'image'=>'https://i.pinimg.com/474x/af/b2/53/afb253beec447de2f5a126b8234c56c7.jpg', 'details'=>'Description of Product 6 goes here', 'price'=>'25$'],
     7=> ['id'=>7, 'name'=> 'Abayah', 'image'=>'https://i.pinimg.com/236x/94/14/64/9414643cf2ce7829146fe79be77c788d.jpg', 'details'=>'Description of Product 7 goes here', 'price'=>'25$'],
  ];
-Route::get('/', function(){
+Route::get('/home', function(){
     return view('home');
 });
 
@@ -126,7 +126,17 @@ Route::get('/about', function(){
 Route::get('/contact', function(){
     return view('contact');
 });
-Route::post('/saveContact', [ContactController::class, 'saveContact'])->Middleware('Uppercase')->name('contacts.saveContact');
+Route::post('/saveContact', [ContactController::class, 'saveContact'])->name('contacts.saveContact');
+
+use App\Models\Contact;
+Route::get('/users',function(){
+    $contact = Contact::all();
+   // $contact  = Contact::where('email','like','%@gmail.%')->get();
+   //$contact  = Contact::find(1)->get(); only for id 
+   // dd($contact);
+    return view('users', ['list'=> $contact]);
+});
+
 
 Route::get('/produit', function() use($donnees) {
     return view('produit', ['data' => $donnees]);

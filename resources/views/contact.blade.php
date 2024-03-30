@@ -6,19 +6,22 @@
 
     @csrf
         
-        <label for="nom">Nom:</label>
+        <label for="nom">second name:</label>
         <input type="text" id="nom" name="nom"><br><br>
         
-        <label for="prenom">Prénom:</label>
+        <label for="prenom">first name :</label>
         <input type="text" id="prenom" name="prenom"><br><br>
         
-        <label for="tel">Téléphone:</label>
+        <label for="tel">phone:</label>
         <input type="tel" id="tel" name="tel"><br><br>
         
         <label for="email">Email:</label>
         <input type="email" id="email" name="email"><br><br>
+
+        <label>password:</label>
+        <input type="password" name="password"/><br><br>
         
-        <label for="date_naiss">Date de naissance:</label>
+        <label for="date_naiss">date of birth:</label>
         <input type="date" id="date_naiss" name="date_naiss"><br><br>
         <input type="submit" value="Envoyer">
     </form>

@@ -119,6 +119,7 @@ form input[type="text"],
 form input[type="tel"],
 form input[type="number"],
 form input[type="email"],
+form input[type="password"],
 select,
 form input[type="date"]  {
     width: 100%;

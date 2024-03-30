@@ -15,8 +15,10 @@ class ContactController extends Controller
             'prenom' => 'required|string',
             'tel' => 'required|string',
             'email' => 'required|email',
+            'password' =>'required|string',
+            // 'regex:/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$/',
+             //regular expression Requires at least one uppercase, one lowercase, one number, and one special character
             'date_naiss' => 'nullable|date',
-           
         ]);
 
         // Create a new Contact instance with the validated data
