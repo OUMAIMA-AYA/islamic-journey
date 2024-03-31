@@ -114,6 +114,9 @@ $donnees = [
     5 => ['id'=>5,'name' => 'Colorful abayah', 'image' => 'https://i.pinimg.com/236x/ac/3c/3b/ac3c3bb248218ffa0c4665de74b814ad.jpg', 'details' => 'Description of Product 5 goes here', 'price'=>'60$'],
     6=> ['id'=>6, 'name'=> 'Abayah', 'image'=>'https://i.pinimg.com/474x/af/b2/53/afb253beec447de2f5a126b8234c56c7.jpg', 'details'=>'Description of Product 6 goes here', 'price'=>'25$'],
     7=> ['id'=>7, 'name'=> 'Abayah', 'image'=>'https://i.pinimg.com/236x/94/14/64/9414643cf2ce7829146fe79be77c788d.jpg', 'details'=>'Description of Product 7 goes here', 'price'=>'25$'],
+    8 => ['id'=>8,'name' => 'a muslim woman s diary', 'image' => 'https://i.pinimg.com/236x/ea/cf/65/eacf65bcc4b4c004ef8cb59a2bb52675.jpg', 'details' => 'Description of Product 8 goes here', 'price'=>'60$'],
+    9=> ['id'=>9, 'name'=> 'daily wisdom', 'image'=>'https://i.pinimg.com/236x/3d/43/5e/3d435edb5b618ea236b883fa7f17ce4c.jpg', 'details'=>'Description of Product 9 goes here', 'price'=>'25$'],
+    10=> ['id'=>10, 'name'=> 'sahih al-boukhari', 'image'=>'https://i.pinimg.com/236x/fe/cc/84/fecc84d0672bf8736469cd1163525153.jpg', 'details'=>'Description of Product 10 goes here', 'price'=>'25$'],
  ];
 Route::get('/home', function(){
     return view('home');

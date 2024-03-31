@@ -2,15 +2,14 @@
 @section('content')
 <style>
        .rule-container {
-        width: 70%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-left: 15%;
         margin-top: 30px;
     }
     .rule-column {
-        width: calc(33.33% - 20px);
+        width: 45%; /* Adjust this width to display 4 or 5 cards per line */
         margin-bottom: 20px;
     }
     .rule-card {
@@ -36,21 +35,42 @@
     .rule-card p {
         font-style: italic;
     }
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        overflow: hidden;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 </style>
 <div>
-<h1 style="text-align: center; color: #8b4513; margin: 15px; text-decoration: underline;">Rules of tajweed</h1>
+<h1 style="text-align: center; color: #8b4513; margin: 15px; font-family: Georgia, 'Times New Roman', Times, serif; ">Rules of tajweed</h1>
 </div>
 <div class="rule-container">
     
     <div class="rule-column">
         <div class="rule-card">
             <img src="">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
             <h3 style="text-align: center;">Ghunnah</h3>
             <p><strong>Rule 1:</strong>  Ghunnah In Tajweed: is a sound produced entirely from the nose (nasal passage). It is almost a sound like a hmm. This sound has average duration of 2 counts. If you find
              a Shaddah sign above the noon (نون) or Meem (ميم) you have to sound a Ghunnah.</p>
         </div>
         <div class="rule-card">
             <img src="" >
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
             <h3 style="text-align: center;">The letters of Izhar </h3>
             <p><strong>Rule 2:</strong>  The letters of this type of Izhar are limited to hamz, haa, ain, ghin,
              haa and khaa and they are the letters that must be shown. In pronunciation when they come after the Sakinah Noun or Tanween, 
@@ -58,22 +78,31 @@
         </div>
         <div class="rule-card">
             <img src="" >
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
             <h3 style="text-align: center;">Iqlab</h3>
             <p><strong>Rule 3:</strong>  Iqlab is a rule of Tajweed in Quranic recitation that occurs when a Tanween 
             or Noon Sakinah is followed by the letter Baa. In such cases, the Tanween or Noon Sakinah is replaced by a Meem sound, which is pronounced with a nasal sound. 
             This nasalization of the Meem is called Iqlab..</p>
         </div>
-    </div>
-    <div class="rule-column">
         <div class="rule-card">
             <img src="" >
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
             <h3 style="text-align: center;">Ikhfaa</h3>
             <p><strong>Rule 4:</strong> If any of the fifteen Arabic 
             letters of Ikhfaa are preceded by Annoon Assakinah or Attanween, then Annoon Assakinah and Attanween should be hidden when they are pronounced with making 
             the sound of ghunnah for approximately two beats of seconds.</p>
         </div>
+    </div>
+    <div class="rule-column">
         <div class="rule-card">
             <img src="">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
             <h3 style="text-align: center;">Idgham without Ghunnah</h3>
             <p><strong>Rule 5:</strong> Idgham without Ghunnah is the nasal sound that is assimilated into a non-nasal
              sound without prolonging the nasal sound. This type of idgham is marked with a small vertical line above the non-nasal letter. There are two letters of the six Idgham letters that are without Ghunnah,
@@ -81,16 +110,20 @@
         </div>
         <div class="rule-card">
             <img src="">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
             <h3 style="text-align: center;">heavy and light</h3>
             <p><strong>Rule 6:</strong> As we all know that there are two types of letters in the Arabic alphabet: 
             heavy and light. The heaviness or lightness of a letter is determined by the amount of air that is exhaled 
             when pronouncing it. Heavy letters are pronounced with a full mouth, 
             while light letters are pronounced with a less open mouth..</p>
         </div>
-    </div>
-    <div class="rule-column">
         <div class="rule-card">
-            <img src="" >
+            <img src="">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
             <h3 style="text-align: center;">the idgham </h3>
             <p><strong>Rule 7:</strong> TheIdgham rules is if after Nun As-Sakinah or Tanween comes any of the Idghaam 
             letters, you will merge the nun Sakinah or Tanween into the letter. The emphasis will be on the succeeding letter 
@@ -98,6 +131,9 @@
         </div>
         <div class="rule-card">
             <img src="" >
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            </div>
             <h3 style="text-align: center;">The idgham with ghunnah</h3>
             <p><strong>Rule 8:</strong> Idghaam with ghunnah, or Idghaam bi ghunna in Arabic, happens when any Tanween
              or Noon Saakinah is followed by any of these letters waaw, meem, noon, yaa (ي، ن، م، و). Remember that a ghunnah is a nasalized sound that falls between

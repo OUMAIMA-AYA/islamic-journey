@@ -1,35 +1,27 @@
 @extends('layout')
 @section('content')
-    <title>99 Names of Allah</title>
+</br><title>99 Names of Allah</title></br>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('https://i.pinimg.com/236x/90/1f/5a/901f5a9e241ef2a423066c33b9aef9b5.jpg');
-            background-size: cover; /* Cover the entire viewport */
-            background-position: center; /* Center the background image */
-        }
 
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
+         width: 100vw; 
+         margin: 0 auto; /* Center the container horizontally */
+}
         .names-list {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center; /* Center items horizontally */
+            gap: 20px; /* Add some gap between cards */
         }
 
         .name-card {
-            width: calc(20% - 20px); /* Set the width for each card to 20% of the container width with some gap */
+            width: calc(14.28% - 20px); /* Set the width for each card to approximately 14.28% of the container width with some gap */
             background-color: #f5f5dc; /* Beige */
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin-bottom: 20px; /* Add some bottom margin for spacing */
+            text-align: center; /* Center text horizontally */
         }
 
         .name {
@@ -52,6 +44,7 @@
         h1 {
             text-align: center;
             color: #333;
+            margin-bottom: 20px; /* Add some bottom margin for spacing */
         }
 
         header {
@@ -101,8 +94,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 style="color: #f5f5dc; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">99 Names of Allah</h1>
-    </br></br>
+        <h1 style="color: #8b4513; font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">99 Names of Allah</h1>
         <div class="names-list">
             @foreach ($namesOfAllah as $name)
                 <div class="name-card">
