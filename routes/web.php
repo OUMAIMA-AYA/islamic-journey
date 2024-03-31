@@ -157,7 +157,10 @@ Route::get('/namesOfAllah',function() use($names){
 Route::get('/produit/{id}', function($id) use ($donnees) {
     return view('product-details', ['produit' => $donnees[$id]]);
 })->name('product-details');  
-
+ 
+Route::get('/infozakah',function(){
+    return view('infozakah');
+});
 
 use App\Http\Controllers\ZakatController;
 

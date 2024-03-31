@@ -145,7 +145,7 @@ form input[type="submit"],
 <body>
 <header>
 <div class="logo">
-         <a href='/'><img src="https://i.pinimg.com/236x/a8/fb/17/a8fb17f5130c797963bf88cdd91c5d1e.jpg" style="border-radius: 100%;" alt="Logo"></a>
+         <a href='/home'><img src="https://i.pinimg.com/236x/a8/fb/17/a8fb17f5130c797963bf88cdd91c5d1e.jpg" style="border-radius: 100%;" alt="Logo"></a>
     </div> <nav>
         <ul class="layout-nav">
             <li><a href="/about">About Us</a></li>
@@ -161,7 +161,7 @@ form input[type="submit"],
     <i class="fas fa-bars"></i>
     <div class="additional-links" id="additionalLinks">
         <ul class="additional-nav">
-            <li><a href="/zakat">Calculating your zakat</a></li>
+            <li><a href="/infozakah">Calculating your zakat</a></li>
         </ul>
     </div>
 </header>

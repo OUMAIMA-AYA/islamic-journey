@@ -85,33 +85,9 @@ button[type="submit"]:hover {
 
 </style>
 <br><br>
-  <h2 style="color: #8b4513;text-align:center; text-decoration: underline;">Calculator of Zakat</h2><br><br>
-<div class="container">
-    <div class="text">
-        
-        <div class="h1h2">
-            <h3>Is Zakat a fundamental obligation of worship (an ‘ibadah)?</h2>
-            <div>Yes. It is the Third of the defining Five Pillars of belief and ritual worship 
-                that the Prophet, on him be peace, taught us that God built this religion on. Thus,
-                 it is every bit the peer of its twin cornerstone upholding Islam, Salah — 
-                 which is Islam’s paradigm worship obligation of five-times daily prayer, to which God 
-                 conjoined Zakat in His Heavenly Revelation, the Quran. Indeed, the Prophet, on him be peace, 
-                 in the famous Gabriel-come-to-teach-you-your religion hadith, or prophetic statement, actually defined Islam itself —
-                 “What is Islam?” — by Zakat, along with its four sister Pillars.</div>
-        </div>
-        <h3>Six conditions of a Muslim's wealth determine if he or she must pay Zakat from it:</h3>
-        <br>
-        <ul id='ul'>
-            <li>Absolute Ownership</li>
-            <li>Growth</li>
-            <li>Minimum Quantity</li>
-            <li>Abundance Above Need</li>
-            <li>Solvency (Freedom from Debt)</li>
-            <li>Lapse of a Lunar Year (or Time of Harvest)</li>
-        </ul>
-    </div>
-    <div class="form">
-        <form action="zakat" method="post">
+<div class="form">
+<h2 style="color: #8b4513;text-align:center;font-family: Georgia, 'Times New Roman', Times, serif; ">Calculator of Zakat</h2><br><br>
+        <form action='/calculateZakat' method="post">
             @csrf
             <label for="gold">Gold (grams):</label>
             <input type="text" name="gold" id="gold" value="0"><br><br>
@@ -132,7 +108,7 @@ button[type="submit"]:hover {
 
             <button type="submit">Calculate Zakat</button>
         </form>
-    </div>
+
 </div>
 
 @endsection

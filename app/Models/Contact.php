@@ -13,7 +13,7 @@ class Contact extends Model
  que d'autres clés dans le tableau, s'il y en a,
  seront ignorées lors de la création de l'enregistrement */
     protected $fillable = [
-        'nom', 'prenom', 'tel', 'email', 'date_naiss',
+        'nom', 'prenom', 'tel', 'email', 'password','date_naiss',
     ];
 
 
