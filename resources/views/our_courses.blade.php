@@ -64,6 +64,12 @@
 .section li {
     margin-bottom: 10px;
 }
+
+img {
+    max-width: 50%;
+    float: right;
+    margin-left: 20px;
+}
  button {
     margin-right: 10px;
     padding: 8px 16px;
@@ -76,14 +82,13 @@
  button:hover {
     background-color: #6e2d08; /* Darker brown on hover */
 }
-
-
 </style>
 <div class="container"></br>
-    <h1 class="title" style=" color: #8b4513;font-family: Georgia, 'Times New Roman', Times, serif;;">Informations before starting our journey!</h1></br>
+    <h1 class="title" style=" color: #8b4513;font-family: Georgia, 'Times New Roman', Times, serif;">Informations before starting our journey!</h1></br>
     <a href="/rules"><button>Tajweed rules</button></a>
     <a href="/namesOfAllah"><button>the 99 names of Allah</button></a>
     <div class="section">
+        <img src="https://i.pinimg.com/236x/cd/20/b6/cd20b648bf6a1ec9e3f6ed61177a92ab.jpg" alt="" style="">
     <p><strong>The first thing to remember when talking about Tajweed Rules is that these rules govern the recitation of the Quran. This, it can be a bit confusing at first. However, to clear up any confusion you may have about what Tajweed Rules are and how they can help you in your recitations. Here are some important points to keep in mind about using them in your recitations of Quran, as well as the benefits you will experience from using them consistently. Let’s get started!</strong></p>
     <br>
     <h3>What is Tajweed?</h3>
