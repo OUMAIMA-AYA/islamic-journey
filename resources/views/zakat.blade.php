@@ -87,7 +87,7 @@ button[type="submit"]:hover {
 <br><br>
 <div class="form">
 <h2 style="color: #8b4513;text-align:center;font-family: Georgia, 'Times New Roman', Times, serif; ">Calculator of Zakat</h2><br><br>
-        <form action='/calculateZakat' method="post">
+        <form action='/zakat' method="post">
             @csrf
             <label for="gold">Gold (grams):</label>
             <input type="text" name="gold" id="gold" value="0"><br><br>

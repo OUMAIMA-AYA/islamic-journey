@@ -33,8 +33,10 @@
 
     <div class="content">
         <div>
-        <h3>{{ $produit['name'] }}</h3>
+         <h3>{{ $produit['name'] }}</h3>
+        <img src="{{$produit['image']}}" />    
          <p>{{ $produit['details'] }}</p>
+         <p>{{$produit['price']}}</p>
         </div>
     </div>
 @endsection
